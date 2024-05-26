@@ -53,7 +53,7 @@ function App() {
         });
         web3auth.configureAdapter(openloginAdapter);
 
-        const sfaAdapter = new SFAAdapter();
+        const sfaAdapter = new sfaAdapter();
         web3auth.configureAdapter(sfaAdapter);
         setWeb3auth(web3auth);
 
